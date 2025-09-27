@@ -3,3 +3,5 @@ node_modules/\n.env\n.turbo/
 
 *.env
 .env
+
+node_modules/
