@@ -123,7 +123,7 @@ module.exports = function main (options, cb) {
 
 // If running directly (not as a module), start the server
 if (require.main === module) {
-  module.exports({ port: process.env.PORT || 8001, host: process.env.HOST || '0.0.0.0' }, function (err, app, server) {
+  module.exports({ port: process.env.PORT || 8000, host: process.env.HOST || '0.0.0.0' }, function (err, app, server) {
     if (err) {
       console.error(err)
       process.exit(1)
